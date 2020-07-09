@@ -1,0 +1,180 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0px;
+  text-align: center;
+}
+
+/************** Start of TOP container **************/
+.top-container {
+  background-color: #142850;
+  position: relative;
+  padding-top: 75px;
+  padding-bottom: 25px;
+}
+.signature {
+  color: #ffffff;
+  font-family: "Sacramento", cursive;
+  /* font-size: 75px*/
+  /* DYNAMIC FONT -> uses % instead of pixel >> rule of thumb 100% is eqv. to 16px << so to get 90px in % conduct 90/16(px)x100 = 562.5% */
+  /* font-size: 312.5%; */
+  /* 16px = 100% = 1em e.g.,.to get eqv. of 75px is (number of pixel)75 / 16px = 5.625em */
+  /* font-size: 5.625em; */
+}
+.job-title {
+  color: #ffffff;
+}
+.left-cloud {
+  bottom: 125px;
+  position: absolute;
+  left: 550px;
+  bottom: 250px;
+}
+.middle-left-cloud {
+  position: absolute;
+  left: 450px;
+  top: 200px;
+}
+.middle-right-cloud {
+  position: absolute;
+  top: 300px;
+  right: 450px;
+}
+.right-cloud {
+  position: absolute;
+  right: 500px;
+  top: 40px;
+}
+
+/************** Start of MIDDLE container **************/
+.middle-container {
+  padding-bottom: 20px;
+}
+
+.profile-pic {
+  width: 250px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.profile-intro-txt {
+  line-height: 2;
+  margin: 50px auto 50px auto;
+  width: 50%;
+}
+
+.skill-row {
+  margin: 50px auto 150px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.p-skill-rows {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contact-me {
+  margin: 50px auto 50px auto;
+  width: 50%;
+}
+
+.contact-me-btn {
+  background: linear-gradient(to bottom, #958fe0 5%, #66bfbf 100%);
+  background-color: #958fe0;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  padding: 10px 31px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+.contact-me-btn:hover {
+  background: linear-gradient(to bottom, #66bfbf 5%, #958fe0 100%);
+  background-color: #2f4eeb;
+}
+.contact-me-btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.my-analyse-img {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+/* .my-analyse-txt {
+  clear: left;
+} */
+
+.my-testexecute-img {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+/* .my-testexecute-txt {
+  clear: right;
+} */
+
+.my-manage-img {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+/************** Start of BOTTOM container **************/
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 20px auto 20px auto;
+}
+.copyright-txt {
+  color: #eaf6f6;
+}
+.icons-attribution-txt {
+  color: #eaf6f6;
+  font-size: 0.65rem;
+  font-weight: lighter;
+}
+
+/************** Other Elements **************/
+h1 {
+  color: #66bfbf;
+  /* margin: 50px auto 0 auto; Auto centering the element on all sides */
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 70px; /*'rem' could be most reliable way to set font-size*/
+  /* line-height: 2; inherited in <p> element. Prefered way is to use unitless value */
+  margin: 50px auto 10px auto;
+}
+h2 {
+  color: #66bfbf;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem; /*40px -> 40/16 = 2.5rem*/
+  font-weight: normal;
+  margin: 25px auto 25px auto;
+}
+h3 {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+hr {
+  border-style: dotted none none none;
+  border-width: 0.5rem;
+  border-color: gray;
+  margin: 150px auto 150px auto;
+  width: 3rem;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+  line-height: 2;
+}
+.training-span {
+  font-style: italic;
+  text-decoration: underline;
+}
+.footer-link {
+  color: #11999e;
+}
