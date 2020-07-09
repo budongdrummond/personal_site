@@ -129,13 +129,31 @@ body {
 /************** Start of BOTTOM container **************/
 .bottom-container {
   background-color: #66bfbf;
-  padding: 20px auto 20px auto;
+  padding: 20px 0px 20px;
 }
+
+.footer-link {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  margin: 0px 10px;
+  text-decoration: none;
+}
+
+a {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+a:hover {
+  color: #eaf6f6;
+}
+
 .copyright-txt {
-  color: #eaf6f6;
+  color: #11999e;
 }
+
 .icons-attribution-txt {
-  color: #eaf6f6;
+  color: #11999e;
   font-size: 0.65rem;
   font-weight: lighter;
 }
@@ -149,6 +167,7 @@ h1 {
   /* line-height: 2; inherited in <p> element. Prefered way is to use unitless value */
   margin: 50px auto 10px auto;
 }
+
 h2 {
   color: #66bfbf;
   font-family: "Poppins", sans-serif;
@@ -156,10 +175,12 @@ h2 {
   font-weight: normal;
   margin: 25px auto 25px auto;
 }
+
 h3 {
   color: #11999e;
   font-family: "Montserrat", sans-serif;
 }
+
 hr {
   border-style: dotted none none none;
   border-width: 0.5rem;
@@ -167,14 +188,13 @@ hr {
   margin: 150px auto 150px auto;
   width: 3rem;
 }
+
 p {
   font-family: "Montserrat", sans-serif;
   line-height: 2;
 }
+
 .training-span {
   font-style: italic;
   text-decoration: underline;
-}
-.footer-link {
-  color: #11999e;
 }
